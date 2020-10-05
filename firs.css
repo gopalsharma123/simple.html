@@ -1,0 +1,169 @@
+body{
+    background-image: url("2.jpg");
+    background-size: cover;
+    background-position-x: center;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+.menu-bar
+{
+    background: rgb(0,100,0);
+    text-align: center;
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color:black;
+
+}
+.menu-bar ul li
+{
+    width: 120px;
+    margin: 5px;
+    padding: 15px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.active, .menu-bar ul li a:hover
+{
+background: green;
+border-radius: 3px;
+}
+.menu-bar .fa
+{
+    margin-right: 8px;
+}
+.sub-menu-1
+{
+display:none;
+
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    background:green;
+    margin-top: 15px;
+    margin-left:-15px;
+    
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+    width: auto;
+    padding: 15px;
+    border-bottom: 1px dotted brown;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+    border-bottom: darkblue;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+    color: black;
+}
+.fa-angle-right
+{
+    float:right;
+    color: white;
+}
+.sub-menu-2
+{
+    display: none;
+}
+.hover-me:hover .sub-menu-2
+{
+    width: 220px;
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+
+}
+.fa-angle-right
+{
+    float: right;
+    color: #fff;
+}
+.sub-menu-3
+{
+    display: none;
+}
+.para:hover .sub-menu-3
+{
+    width: 500px;
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
